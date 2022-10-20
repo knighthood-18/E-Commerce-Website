@@ -7,7 +7,7 @@
 - Clone your fork down to your local machine
 
 ```markdown
-git clone https://github.com/praveensingh212223/hacktoberfest_2022.git
+git clone https://github.com/aditii-18/E-Commerce-Website.git
 ```
 
 - Create a branch
