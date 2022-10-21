@@ -15,7 +15,8 @@ body
 }
 #container
 {
-    background-color: white;
+/*     background-color: white; */
+    background-color: #014d80;
     margin: auto;
     text-align: center;
     width: 100%;
