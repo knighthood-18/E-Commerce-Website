@@ -40,13 +40,12 @@ body
 #shopName a
 {
     text-decoration: none;
-    color: rgb(29, 29, 29);
+    color: white;
 }
 #shopName > b
 {
     font-weight: 900;
-    font: black;
-}
+    font: white;
 
 #collection
 {
@@ -57,7 +56,7 @@ body
 #collection a
 {
     text-decoration: none;
-    color: rgb(29, 29, 29);
+    color: white;
 }
 
 .search
