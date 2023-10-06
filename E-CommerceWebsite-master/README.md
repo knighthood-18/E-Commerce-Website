@@ -1,4 +1,4 @@
-# hacktoberfest_2022
+# hacktoberfest_
 # E-CommerceWebsite
 Here's a sample of a mobile-responsive e-commerce website using HTML, CSS, JavaScript, and APIs. This website showcases products, allows users to browse and search, add items to the cart, and complete purchases securely through integrated payment gateways. The design adapts seamlessly to various screen sizes for a user-friendly mobile experience.
  
