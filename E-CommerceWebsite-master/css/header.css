@@ -20,9 +20,7 @@ body
     margin: auto;
     text-align: center;
     width: 100%;
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: 1.5fr 1.5fr 5fr 1fr;
+    display: flex;
     font-family: 'Lato', sans-serif;
     z-index: 1;
     justify-content: space-between;
@@ -32,6 +30,19 @@ body
     position: fixed;
     box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302), 0 2px 6px 2px rgba(60, 64, 67, 0.149); 
 }
+
+#first-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#second-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #shopName 
 {
     font-size: 40px; 
@@ -47,6 +58,7 @@ body
 {
     font-weight: 900;
     font: white;
+}
 
 #collection
 {
@@ -140,11 +152,6 @@ body
 
 @media(max-width: 1090px)
 {
-    #container
-    {
-        display: grid;
-        grid-template-columns: 1fr 2fr 0.5fr;
-    }
     #search
     {
         display: none;
@@ -191,6 +198,7 @@ body
     #container 
     {
         padding: 20px 25px;
+        flex-direction: column;
     }
 }
 
