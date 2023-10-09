@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,6 +24,12 @@
             req.open("GET", url, false);
             req.send(null);
             document.getElementById(1).innerHTML = req.responseText;
+        }
+        function handleClick(e){
+            console.log(e.target.src);
+            const dataTheme = document.querySelector("html").getAttribute("data-theme");
+            e.target.src = e.target.src == "http://127.0.0.1:5500/img/theme-light.svg" ? "http://127.0.0.1:5500/img/theme-dark.svg" : "http://127.0.0.1:5500/img/theme-light.svg";
+            document.querySelector("html").setAttribute("data-theme", dataTheme == "light" ? "dark" : "light");
         }
     </script>
 

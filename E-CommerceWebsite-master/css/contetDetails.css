@@ -1,5 +1,20 @@
-body
-{
+:root {
+    --grid-unit: 1rem;
+    --border-radius-base: 0.5rem;
+}
+
+[data-theme="light"] {
+    --color-bg: #ffffff;
+    --color-fg: #000000;
+}
+
+[data-theme="dark"] {
+    --color-bg: #000000;
+    --color-fg: #ffffff;
+}
+
+/* example use of CSS custom properties */
+body {
     margin: 0;
     text-transform: capitalize;
     font-family: 'Lato', sans-serif;
@@ -9,6 +24,8 @@ body
 #containerProduct
 {
     padding-top: 80px;
+    background-color: var(--color-bg) !important;
+    color: var(--color-fg) !important;
 }
 #containerD
 {
